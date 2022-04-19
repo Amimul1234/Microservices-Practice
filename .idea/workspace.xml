@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbda3487-aad7-452a-8c5f-a98d938760fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/fraud/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud/src/main/java/com/rahi/fraud/FraudApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +70,14 @@
       <recent name="com.rahi.customer" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.FraudApplication">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CustomerApplication">
     <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -129,9 +130,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.CustomerApplication" />
         <item itemvalue="Spring Boot.FraudApplication" />
         <item itemvalue="HTTP Request.generated-requests | #1" />
-        <item itemvalue="Spring Boot.CustomerApplication" />
         <item itemvalue="Docker.docker-compose.yaml.postgres: Compose Deployment" />
         <item itemvalue="Docker.docker-compose.yaml: Compose Deployment" />
       </list>
@@ -148,7 +149,7 @@
       <workItem from="1650202234872" duration="4939000" />
       <workItem from="1650288832178" duration="10384000" />
       <workItem from="1650313180412" duration="6000" />
-      <workItem from="1650383439943" duration="1404000" />
+      <workItem from="1650383439943" duration="1704000" />
     </task>
     <task id="LOCAL-00001" summary="Introduced customer microservices.">
       <created>1650290473153</created>
@@ -178,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650302045953</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fraud microservices introduced.">
+      <created>1650386006843</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1650386006844</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +199,7 @@
     <MESSAGE value="Introduced customer microservices." />
     <MESSAGE value="Connecting to database." />
     <MESSAGE value="Customer database connected." />
-    <option name="LAST_COMMIT_MESSAGE" value="Customer database connected." />
+    <MESSAGE value="Fraud microservices introduced." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fraud microservices introduced." />
   </component>
 </project>
