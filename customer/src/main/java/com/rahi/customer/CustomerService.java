@@ -29,5 +29,6 @@ public class CustomerService {
         if (fraudCheckResponse.getIsFraudster()) {
             throw new IllegalStateException("Fraudster");
         }
+
     }
 }
