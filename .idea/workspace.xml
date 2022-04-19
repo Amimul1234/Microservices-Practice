@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbda3487-aad7-452a-8c5f-a98d938760fd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/eureka-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/java/com/rahi/eurekaserver/EurekaServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/rahi/customer/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/rahi/customer/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +108,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EurekaServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rahi.eurekaserver.EurekaServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rahi.eurekaserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FraudApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="fraud" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.rahi.fraud.FraudApplication" />
@@ -115,14 +133,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="docker-compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="sourceFilePath" value="docker-compose.yaml" />
-        </settings>
-      </deployment>
-      <method v="2" />
     </configuration>
     <configuration name="docker-compose.yaml.postgres: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
@@ -141,9 +151,9 @@
       <list>
         <item itemvalue="Spring Boot.CustomerApplication" />
         <item itemvalue="Spring Boot.FraudApplication" />
+        <item itemvalue="Spring Boot.EurekaServer" />
         <item itemvalue="HTTP Request.generated-requests | #1" />
         <item itemvalue="Docker.docker-compose.yaml.postgres: Compose Deployment" />
-        <item itemvalue="Docker.docker-compose.yaml: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +168,7 @@
       <workItem from="1650202234872" duration="4939000" />
       <workItem from="1650288832178" duration="10384000" />
       <workItem from="1650313180412" duration="6000" />
-      <workItem from="1650383439943" duration="9681000" />
+      <workItem from="1650383439943" duration="10407000" />
     </task>
     <task id="LOCAL-00001" summary="Introduced customer microservices.">
       <created>1650290473153</created>
@@ -216,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650398471775</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Introducing spring cloud to system.">
+      <created>1650403006774</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1650403006774</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +250,7 @@
     <MESSAGE value="Introduced new microservices." />
     <MESSAGE value="Fraud microservices in action." />
     <MESSAGE value="Rest template introduced." />
-    <option name="LAST_COMMIT_MESSAGE" value="Rest template introduced." />
+    <MESSAGE value="Introducing spring cloud to system." />
+    <option name="LAST_COMMIT_MESSAGE" value="Introducing spring cloud to system." />
   </component>
 </project>
