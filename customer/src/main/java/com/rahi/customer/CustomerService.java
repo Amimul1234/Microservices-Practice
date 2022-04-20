@@ -1,15 +1,16 @@
 package com.rahi.customer;
 
+import com.rahi.clients.fraud.FraudCheckResponse;
+import com.rahi.clients.fraud.FraudClient;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import org.springframework.web.client.RestTemplate;
 
 @RequiredArgsConstructor
 @Service
 public class CustomerService {
 
     private final CustomerRepository customerRepository;
-    private final RestTemplate restTemplate;
+    private final FraudClient fraudClient;
 
     public void registerCustomer( CustomerRegistrationRequest customerRegistrationRequest ) {
 
@@ -21,10 +22,7 @@ public class CustomerService {
 
         Customer customer1 = customerRepository.save(customer);
 
-        FraudCheckResponse fraudCheckResponse = restTemplate.getForObject(
-                "http://FRAUD/api/v1/fraud-check/{customerId}",
-                FraudCheckResponse.class, customer1.getId()
-        );
+        FraudCheckResponse fraudCheckResponse = fraudClient.isFraudster(customer1.getId());
 
         if (fraudCheckResponse.getIsFraudster()) {
             throw new IllegalStateException("Fraudster");
