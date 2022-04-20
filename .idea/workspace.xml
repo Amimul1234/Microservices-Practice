@@ -5,10 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbda3487-aad7-452a-8c5f-a98d938760fd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/clients/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/src/main/java/com/rahi/clients/fraud/FraudClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5bfbe6d0-353c-4706-b46f-910194483a91.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5bfbe6d0-353c-4706-b46f-910194483a91/storage_v2/_src_/database/amigoscode.m4jhWA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5bfbe6d0-353c-4706-b46f-910194483a91/storage_v2/_src_/database/amigoscode.m4jhWA/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5bfbe6d0-353c-4706-b46f-910194483a91/storage_v2/_src_/database/amigoscode.m4jhWA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5bfbe6d0-353c-4706-b46f-910194483a91/storage_v2/_src_/database/amigoscode.m4jhWA/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5bfbe6d0-353c-4706-b46f-910194483a91/storage_v2/_src_/database/customer.3n8hJA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5bfbe6d0-353c-4706-b46f-910194483a91/storage_v2/_src_/database/customer.3n8hJA/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5bfbe6d0-353c-4706-b46f-910194483a91/storage_v2/_src_/database/customer.3n8hJA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5bfbe6d0-353c-4706-b46f-910194483a91/storage_v2/_src_/database/customer.3n8hJA/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5bfbe6d0-353c-4706-b46f-910194483a91/storage_v2/_src_/database/fraud.ZKrSBQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5bfbe6d0-353c-4706-b46f-910194483a91/storage_v2/_src_/database/fraud.ZKrSBQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5bfbe6d0-353c-4706-b46f-910194483a91/storage_v2/_src_/database/fraud.ZKrSBQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5bfbe6d0-353c-4706-b46f-910194483a91/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5bfbe6d0-353c-4706-b46f-910194483a91/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5bfbe6d0-353c-4706-b46f-910194483a91/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5bfbe6d0-353c-4706-b46f-910194483a91/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7c5c3cd4-71f2-4775-8e46-6a5d90871836.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7c5c3cd4-71f2-4775-8e46-6a5d90871836.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/rahi/customer/CustomerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/rahi/customer/CustomerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/rahi/customer/CustomerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/rahi/customer/CustomerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/rahi/customer/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/rahi/customer/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +39,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -64,7 +85,8 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "spring.configuration.checksum": "5b440fe0ffe7b4fb4de97a4bbfba5aa8"
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "spring.configuration.checksum": "e5f65d90abfd68c8f3ef40fcfcc3d251"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -88,7 +110,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.FraudApplication">
+  <component name="RunManager" selected="Spring Boot.EurekaServer">
     <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -154,9 +176,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.FraudApplication" />
-        <item itemvalue="Spring Boot.CustomerApplication" />
         <item itemvalue="Spring Boot.EurekaServer" />
+        <item itemvalue="Spring Boot.CustomerApplication" />
+        <item itemvalue="Spring Boot.FraudApplication" />
         <item itemvalue="HTTP Request.generated-requests | #1" />
         <item itemvalue="Docker.docker-compose.yaml.postgres: Compose Deployment" />
       </list>
@@ -173,7 +195,9 @@
       <workItem from="1650202234872" duration="4939000" />
       <workItem from="1650288832178" duration="10384000" />
       <workItem from="1650313180412" duration="6000" />
-      <workItem from="1650383439943" duration="11049000" />
+      <workItem from="1650383439943" duration="11828000" />
+      <workItem from="1650438049553" duration="9000" />
+      <workItem from="1650466479897" duration="1229000" />
     </task>
     <task id="LOCAL-00001" summary="Introduced customer microservices.">
       <created>1650290473153</created>
@@ -245,11 +269,23 @@
       <option name="project" value="LOCAL" />
       <updated>1650403800936</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Eureka client added to microservices.">
+      <created>1650404458208</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1650404458208</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
+    <option featureType="dependencySupport" implementationName="java:com.google.inject:guice" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate:hibernate-core" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -275,6 +311,7 @@
     <MESSAGE value="Rest template introduced." />
     <MESSAGE value="Introducing spring cloud to system." />
     <MESSAGE value="Eureka introduced for service discovery." />
-    <option name="LAST_COMMIT_MESSAGE" value="Eureka introduced for service discovery." />
+    <MESSAGE value="Eureka client added to microservices." />
+    <option name="LAST_COMMIT_MESSAGE" value="Eureka client added to microservices." />
   </component>
 </project>
