@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbda3487-aad7-452a-8c5f-a98d938760fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/clients/src/main/java/com/rahi/clients/notification/NotificationClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/src/main/java/com/rahi/clients/notification/NotificationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/rahi/notification/Notification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/rahi/notification/NotificationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/rahi/notification/NotificationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/rahi/notification/NotificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/test/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/rahi/notification/NotificationApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/rahi/customer/CustomerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/rahi/customer/CustomerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/rahi/customer/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/rahi/customer/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +90,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.CustomerApplication">
+  <component name="RunManager" selected="Spring Boot.NotificationApplication">
     <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -146,33 +134,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="docker-compose.yaml.postgres: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="services">
-            <list>
-              <option value="postgres" />
-            </list>
-          </option>
-          <option name="sourceFilePath" value="docker-compose.yaml" />
-        </settings>
-      </deployment>
-      <method v="2" />
+    <configuration name="NotificationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="notification" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rahi.notification.NotificationApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rahi.notification.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
-      <item itemvalue="Docker.docker-compose.yaml.postgres: Compose Deployment" />
       <item itemvalue="HTTP Request.generated-requests | #1" />
+      <item itemvalue="Spring Boot.NotificationApplication" />
       <item itemvalue="Spring Boot.CustomerApplication" />
       <item itemvalue="Spring Boot.EurekaServer" />
       <item itemvalue="Spring Boot.FraudApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.CustomerApplication" />
+        <item itemvalue="Spring Boot.NotificationApplication" />
         <item itemvalue="Spring Boot.FraudApplication" />
+        <item itemvalue="Spring Boot.CustomerApplication" />
         <item itemvalue="Spring Boot.EurekaServer" />
         <item itemvalue="HTTP Request.generated-requests | #1" />
-        <item itemvalue="Docker.docker-compose.yaml.postgres: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +178,7 @@
       <workItem from="1650383439943" duration="11828000" />
       <workItem from="1650438049553" duration="9000" />
       <workItem from="1650466479897" duration="3493000" />
-      <workItem from="1650474579781" duration="935000" />
+      <workItem from="1650474579781" duration="1249000" />
     </task>
     <task id="LOCAL-00001" summary="Introduced customer microservices.">
       <created>1650290473153</created>
@@ -290,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650468705102</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Notification microservices introduced.">
+      <created>1650475702718</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1650475702718</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,6 +324,7 @@
     <MESSAGE value="Introduced feign client to system." />
     <MESSAGE value="Openfeign in action." />
     <MESSAGE value="Feign in action." />
-    <option name="LAST_COMMIT_MESSAGE" value="Feign in action." />
+    <MESSAGE value="Notification microservices introduced." />
+    <option name="LAST_COMMIT_MESSAGE" value="Notification microservices introduced." />
   </component>
 </project>
