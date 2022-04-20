@@ -5,14 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbda3487-aad7-452a-8c5f-a98d938760fd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/clients/src/main/java/com/rahi/clients/notification/NotificationClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/src/main/java/com/rahi/clients/notification/NotificationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/rahi/notification/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/rahi/notification/NotificationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/rahi/notification/NotificationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/rahi/notification/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/test/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/rahi/customer/CustomerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/rahi/customer/CustomerApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/rahi/customer/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/rahi/customer/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/rahi/customer/FraudCheckResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/src/main/java/com/rahi/fraud/FraudCheckResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/src/main/java/com/rahi/fraud/FraudController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/src/main/java/com/rahi/fraud/FraudController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -69,7 +75,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
-    "spring.configuration.checksum": "e5f65d90abfd68c8f3ef40fcfcc3d251"
+    "spring.configuration.checksum": "a24075d9a119ab8667fcd0d1ea3f2c09"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -79,6 +85,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.rahi.notification" />
+      <recent name="com.rahi.clients.notification" />
       <recent name="com.rahi.fraud" />
       <recent name="com.rahi.customer" />
     </key>
@@ -181,7 +189,8 @@
       <workItem from="1650313180412" duration="6000" />
       <workItem from="1650383439943" duration="11828000" />
       <workItem from="1650438049553" duration="9000" />
-      <workItem from="1650466479897" duration="1951000" />
+      <workItem from="1650466479897" duration="3493000" />
+      <workItem from="1650474579781" duration="935000" />
     </task>
     <task id="LOCAL-00001" summary="Introduced customer microservices.">
       <created>1650290473153</created>
@@ -267,7 +276,21 @@
       <option name="project" value="LOCAL" />
       <updated>1650467878026</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Openfeign in action.">
+      <created>1650468528745</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1650468528745</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Feign in action.">
+      <created>1650468705102</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1650468705102</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,6 +327,8 @@
     <MESSAGE value="Eureka introduced for service discovery." />
     <MESSAGE value="Eureka client added to microservices." />
     <MESSAGE value="Introduced feign client to system." />
-    <option name="LAST_COMMIT_MESSAGE" value="Introduced feign client to system." />
+    <MESSAGE value="Openfeign in action." />
+    <MESSAGE value="Feign in action." />
+    <option name="LAST_COMMIT_MESSAGE" value="Feign in action." />
   </component>
 </project>
