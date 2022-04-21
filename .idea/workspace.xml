@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbda3487-aad7-452a-8c5f-a98d938760fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/apigw/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apigw/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apigw/src/main/java/com/rahi/apigw/ApiGWApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apigw/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +89,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ApiGWApplication">
+  <component name="RunManager" selected="Spring Boot.NotificationApplication">
     <configuration name="ApiGWApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="apigw" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.rahi.apigw.ApiGWApplication" />
@@ -172,10 +165,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.NotificationApplication" />
         <item itemvalue="Spring Boot.ApiGWApplication" />
         <item itemvalue="Spring Boot.FraudApplication" />
         <item itemvalue="Spring Boot.CustomerApplication" />
-        <item itemvalue="Spring Boot.NotificationApplication" />
         <item itemvalue="Spring Boot.EurekaServer" />
       </list>
     </recent_temporary>
@@ -196,7 +189,7 @@
       <workItem from="1650466479897" duration="3493000" />
       <workItem from="1650474579781" duration="8770000" />
       <workItem from="1650518418693" duration="886000" />
-      <workItem from="1650547507362" duration="2446000" />
+      <workItem from="1650547507362" duration="3775000" />
     </task>
     <task id="LOCAL-00001" summary="Introduced customer microservices.">
       <created>1650290473153</created>
@@ -324,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650547574866</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Api gateway configured for the system.">
+      <created>1650550256090</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1650550256090</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,6 +365,7 @@
     <MESSAGE value="Feign in action." />
     <MESSAGE value="Notification microservices introduced." />
     <MESSAGE value="Added notification microservices to system." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added notification microservices to system." />
+    <MESSAGE value="Api gateway configured for the system." />
+    <option name="LAST_COMMIT_MESSAGE" value="Api gateway configured for the system." />
   </component>
 </project>
