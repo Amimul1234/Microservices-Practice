@@ -5,17 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbda3487-aad7-452a-8c5f-a98d938760fd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apigw/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apigw/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apigw/src/main/java/com/rahi/apigw/ApiGWApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apigw/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customer/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/notification/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,33 +50,33 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "E:/microservices_practice",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
-    "spring.configuration.checksum": "af06498d986f1f701a8eff533a46bf7f"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/microservices_practice&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;af06498d986f1f701a8eff533a46bf7f&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.rahi.notification" />
@@ -99,7 +96,20 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.NotificationApplication">
+  <component name="RunManager" selected="Spring Boot.ApiGWApplication">
+    <configuration name="ApiGWApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="apigw" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rahi.apigw.ApiGWApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rahi.apigw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CustomerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="ACTIVE_PROFILES" />
       <module name="customer" />
@@ -153,21 +163,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="docker-compose.yaml.zipkin: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="services">
-            <list>
-              <option value="zipkin" />
-            </list>
-          </option>
-          <option name="sourceFilePath" value="docker-compose.yaml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Docker.docker-compose.yaml.zipkin: Compose Deployment" />
+      <item itemvalue="Spring Boot.ApiGWApplication" />
       <item itemvalue="Spring Boot.EurekaServer" />
       <item itemvalue="Spring Boot.NotificationApplication" />
       <item itemvalue="Spring Boot.CustomerApplication" />
@@ -175,11 +172,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.NotificationApplication" />
-        <item itemvalue="Spring Boot.CustomerApplication" />
+        <item itemvalue="Spring Boot.ApiGWApplication" />
         <item itemvalue="Spring Boot.FraudApplication" />
+        <item itemvalue="Spring Boot.CustomerApplication" />
+        <item itemvalue="Spring Boot.NotificationApplication" />
         <item itemvalue="Spring Boot.EurekaServer" />
-        <item itemvalue="Docker.docker-compose.yaml.zipkin: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
@@ -199,6 +196,7 @@
       <workItem from="1650466479897" duration="3493000" />
       <workItem from="1650474579781" duration="8770000" />
       <workItem from="1650518418693" duration="886000" />
+      <workItem from="1650547507362" duration="2446000" />
     </task>
     <task id="LOCAL-00001" summary="Introduced customer microservices.">
       <created>1650290473153</created>
@@ -319,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650477589202</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Added notification microservices to system.">
+      <created>1650547574866</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1650547574866</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
