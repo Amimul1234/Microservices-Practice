@@ -1,8 +1,8 @@
 package com.rahi.customer;
 
+import com.rahi.amqp.RabbitMqMessageProducer;
 import com.rahi.clients.fraud.FraudCheckResponse;
 import com.rahi.clients.fraud.FraudClient;
-import com.rahi.clients.notification.NotificationClient;
 import com.rahi.clients.notification.NotificationRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -13,7 +13,7 @@ public class CustomerService {
 
     private final CustomerRepository customerRepository;
     private final FraudClient fraudClient;
-    private final NotificationClient notificationClient;
+    private final RabbitMqMessageProducer rabbitMqMessageProducer;
 
     public void registerCustomer( CustomerRegistrationRequest customerRegistrationRequest ) {
 
@@ -33,11 +33,17 @@ public class CustomerService {
 
         //TODO: send notification
 
-        notificationClient.sendNotification(
-                new NotificationRequest(
-                        customer1.getId(),
-                        customer.getEmail(),
-                        String.format("Hi %s, welcome to rahi's world", customer.getFirstName())
-                ));
+        NotificationRequest notificationRequest = new NotificationRequest(
+                customer1.getId(),
+                customer.getEmail(),
+                String.format("Hi %s, welcome to rahi's world", customer.getFirstName())
+        );
+
+        rabbitMqMessageProducer.publish(
+                notificationRequest,
+                "internal.exchange",
+                "internal.notification.routing-key"
+        );
+
     }
 }
