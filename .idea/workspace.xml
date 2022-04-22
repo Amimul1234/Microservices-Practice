@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbda3487-aad7-452a-8c5f-a98d938760fd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/rahi/notification/rabbitmq/NotificationConsumer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/rahi/customer/CustomerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/rahi/customer/CustomerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/rahi/customer/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/rahi/customer/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +93,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.FraudApplication">
+  <component name="RunManager" selected="Spring Boot.NotificationApplication">
     <configuration name="ApiGWApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="apigw" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.rahi.apigw.ApiGWApplication" />
@@ -170,8 +168,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.FraudApplication" />
         <item itemvalue="Spring Boot.NotificationApplication" />
+        <item itemvalue="Spring Boot.FraudApplication" />
         <item itemvalue="Spring Boot.CustomerApplication" />
         <item itemvalue="Spring Boot.ApiGWApplication" />
         <item itemvalue="Spring Boot.EurekaServer" />
@@ -197,7 +195,7 @@
       <workItem from="1650547507362" duration="3775000" />
       <workItem from="1650575362507" duration="821000" />
       <workItem from="1650614470930" duration="9000" />
-      <workItem from="1650634721238" duration="5968000" />
+      <workItem from="1650634721238" duration="7352000" />
     </task>
     <task id="LOCAL-00001" summary="Introduced customer microservices.">
       <created>1650290473153</created>
@@ -360,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650640500240</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Adding Rabbit listener to system.">
+      <created>1650641810985</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1650641810985</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -404,6 +409,7 @@
     <MESSAGE value="Api gateway configured for the system." />
     <MESSAGE value="Rabbimq mq configured." />
     <MESSAGE value="Rabbit mq message producer configured." />
-    <option name="LAST_COMMIT_MESSAGE" value="Rabbit mq message producer configured." />
+    <MESSAGE value="Adding Rabbit listener to system." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Rabbit listener to system." />
   </component>
 </project>
