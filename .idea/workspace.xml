@@ -7,8 +7,6 @@
     <list default="true" id="bbda3487-aad7-452a-8c5f-a98d938760fd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notification/src/main/java/com/rahi/notification/NotificationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/com/rahi/notification/NotificationApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/src/main/java/com/rahi/notification/NotificationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/com/rahi/notification/NotificationConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +195,7 @@
       <workItem from="1650547507362" duration="3775000" />
       <workItem from="1650575362507" duration="821000" />
       <workItem from="1650614470930" duration="9000" />
-      <workItem from="1650634721238" duration="4035000" />
+      <workItem from="1650634721238" duration="4875000" />
     </task>
     <task id="LOCAL-00001" summary="Introduced customer microservices.">
       <created>1650290473153</created>
@@ -346,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650639287771</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Rabbimq mq configured.">
+      <created>1650639915988</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1650639915988</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
