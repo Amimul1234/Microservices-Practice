@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbda3487-aad7-452a-8c5f-a98d938760fd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/eeaa3e08-851c-4d4f-9433-e3b9f826c288.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/eeaa3e08-851c-4d4f-9433-e3b9f826c288.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apigw/src/main/resources/application-docker.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application-docker.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amqp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/amqp/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apigw/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/apigw/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/clients/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/notification/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +36,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="enabledProfiles">
+      <list>
+        <option value="build-docker-image" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="27vYsTIvZlSyz2XZT1ZOmTJWuWA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -64,7 +66,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/microservices_practice&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/microservices_practice/eureka-server/src/main/resources&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -89,6 +91,10 @@
       <recent name="com.rahi.fraud" />
       <recent name="com.rahi.customer" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\microservices_practice\eureka-server\src\main\resources" />
+      <recent name="E:\microservices_practice\apigw\src\main\resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.rahi.clients.fraud" />
       <recent name="com.rahi.customer" />
@@ -101,36 +107,10 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaServer">
+  <component name="RunManager" selected="Docker.docker-compose.yaml.api-gateway: Compose Deployment">
     <configuration name="customer-1.0-SNAPSHOT.jar" type="JarApplication" temporary="true">
       <option name="JAR_PATH" value="$PROJECT_DIR$/customer/target/customer-1.0-SNAPSHOT.jar" />
       <method v="2" />
-    </configuration>
-    <configuration name="ApiGWApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="apigw" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rahi.apigw.ApiGWApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rahi.apigw.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CustomerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="customer" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rahi.customer.CustomerApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rahi.customer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="EurekaServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-server" />
@@ -165,21 +145,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="docker-compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yaml.api-gateway: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="api-gateway" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Docker.docker-compose.yaml.api-gateway: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yaml: Compose Deployment" />
       <item itemvalue="JAR Application.customer-1.0-SNAPSHOT.jar" />
       <item itemvalue="Spring Boot.EurekaServer" />
-      <item itemvalue="Spring Boot.ApiGWApplication" />
       <item itemvalue="Spring Boot.NotificationApplication" />
-      <item itemvalue="Spring Boot.CustomerApplication" />
       <item itemvalue="Spring Boot.FraudApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.docker-compose.yaml.api-gateway: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yaml: Compose Deployment" />
         <item itemvalue="JAR Application.customer-1.0-SNAPSHOT.jar" />
         <item itemvalue="Spring Boot.NotificationApplication" />
         <item itemvalue="Spring Boot.FraudApplication" />
-        <item itemvalue="Spring Boot.CustomerApplication" />
-        <item itemvalue="Spring Boot.ApiGWApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +205,11 @@
       <workItem from="1650614470930" duration="9000" />
       <workItem from="1650634721238" duration="10381000" />
       <workItem from="1650710141890" duration="12000" />
-      <workItem from="1650732096789" duration="3233000" />
+      <workItem from="1650732096789" duration="3287000" />
+      <workItem from="1650750205417" duration="1624000" />
+      <workItem from="1650864361038" duration="1395000" />
+      <workItem from="1650882368002" duration="3103000" />
+      <workItem from="1650897582911" duration="2156000" />
     </task>
     <task id="LOCAL-00001" summary="Introduced customer microservices.">
       <created>1650290473153</created>
@@ -381,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650645102041</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Added JIB plugin to project.">
+      <created>1650740950654</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1650740950654</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,6 +439,7 @@
     <MESSAGE value="Rabbit mq message producer configured." />
     <MESSAGE value="Adding Rabbit listener to system." />
     <MESSAGE value="Starting packaging section of the course" />
-    <option name="LAST_COMMIT_MESSAGE" value="Starting packaging section of the course" />
+    <MESSAGE value="Added JIB plugin to project." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added JIB plugin to project." />
   </component>
 </project>
