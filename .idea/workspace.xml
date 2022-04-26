@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbda3487-aad7-452a-8c5f-a98d938760fd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/clients/src/main/resources/clients-default.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/src/main/resources/clients-kube.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +64,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/microservices_practice/notification/src/main/resources&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/microservices_practice/clients/src/main/resources&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -88,11 +90,11 @@
       <recent name="com.rahi.customer" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\microservices_practice\clients\src\main\resources" />
       <recent name="E:\microservices_practice\notification\src\main\resources" />
       <recent name="E:\microservices_practice\fraud\src\main\resources" />
       <recent name="E:\microservices_practice\customer\src\main\resources" />
       <recent name="E:\microservices_practice\eureka-server\src\main\resources" />
-      <recent name="E:\microservices_practice\apigw\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.rahi.clients.fraud" />
@@ -210,7 +212,7 @@
       <workItem from="1650882368002" duration="3103000" />
       <workItem from="1650897582911" duration="6983000" />
       <workItem from="1650947592088" duration="15000" />
-      <workItem from="1650993116615" duration="3155000" />
+      <workItem from="1650993116615" duration="4076000" />
     </task>
     <task id="LOCAL-00001" summary="Introduced customer microservices.">
       <created>1650290473153</created>
@@ -415,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650997486396</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Disabled eureka for service discovery and using the kubernetes service discovery.">
+      <created>1650998368735</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1650998368735</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,6 +474,7 @@
     <MESSAGE value="dockrizing the microservices." />
     <MESSAGE value="Dockerized every microservice." />
     <MESSAGE value="Added kubernetes configuration files to system." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added kubernetes configuration files to system." />
+    <MESSAGE value="Disabled eureka for service discovery and using the kubernetes service discovery." />
+    <option name="LAST_COMMIT_MESSAGE" value="Disabled eureka for service discovery and using the kubernetes service discovery." />
   </component>
 </project>
