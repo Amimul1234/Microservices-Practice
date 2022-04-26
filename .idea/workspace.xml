@@ -5,11 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbda3487-aad7-452a-8c5f-a98d938760fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/k8s/minikube/bootstrap/postgres/configmap.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s/minikube/bootstrap/postgres/service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s/minikube/bootstrap/postgres/statefulset.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s/minikube/bootstrap/postgres/volume.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s/minikube/bootstrap/rabbitmq/configmap.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -215,7 +210,7 @@
       <workItem from="1650882368002" duration="3103000" />
       <workItem from="1650897582911" duration="6983000" />
       <workItem from="1650947592088" duration="15000" />
-      <workItem from="1650993116615" duration="2227000" />
+      <workItem from="1650993116615" duration="3155000" />
     </task>
     <task id="LOCAL-00001" summary="Introduced customer microservices.">
       <created>1650290473153</created>
@@ -413,7 +408,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650904750964</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Added kubernetes configuration files to system.">
+      <created>1650997486396</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1650997486396</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,6 +464,7 @@
     <MESSAGE value="Added JIB plugin to project." />
     <MESSAGE value="dockrizing the microservices." />
     <MESSAGE value="Dockerized every microservice." />
-    <option name="LAST_COMMIT_MESSAGE" value="Dockerized every microservice." />
+    <MESSAGE value="Added kubernetes configuration files to system." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added kubernetes configuration files to system." />
   </component>
 </project>
